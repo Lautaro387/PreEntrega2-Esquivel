@@ -1,0 +1,204 @@
+body {
+    background-image: linear-gradient(to bottom, #e6f2ff, #ccddff);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Estilos de la barra de navegación */
+.navbar {
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+
+  }
+  
+  .navbar-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-menu li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-menu a:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navbar {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .navbar-menu {
+      margin-top: 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .navbar-menu li {
+      margin-bottom: 10px;
+    }
+  }
+  
+  
+  /* Estilos del contenido */
+  .titulo {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 60px;
+    color: #8f4343;
+    background-image: url(../images/descarga.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+  }
+
+  @media screen and (max-width: 767px) {
+    .titulo {
+      font-size: 30px;
+      padding: 10% 15%;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .titulo {
+      font-size: 40px;
+      padding: 10% 20%;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .titulo {
+      font-size: 60px;
+      padding: 15% 25%;
+    }
+  }
+  
+  
+  .contenido {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .emblematico {
+    font-weight: bold;
+    color: #ff0000;
+  }
+  
+  .acogedor {
+    font-style: italic;
+    color: #0000ff;
+  }
+  
+  .comunidad {
+    text-decoration: underline;
+  }
+  
+  .encuentro {
+    font-weight: bold;
+    color: #00ff00;
+  }
+  
+  .apoyo {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .calidez {
+    font-family: Arial, sans-serif;
+  }
+  
+  .contenido-texto p {
+    margin-bottom: 20px;
+  }
+  
+  .arribaMaps {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .Tecontamos {
+    margin-top: 50px;
+  }
+  
+  /* Estilos del footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-menu li {
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+  }
+  
+  .footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-menu a:hover {
+    color: #ccc;
+  }
+  
+  .social-media {
+    margin-bottom: 10px;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+  }
+  
+  .footer-bottom {
+    font-size: 14px;
+  }
+
+  .footer img{
+    max-width: 40px;
+  }
+
+  
+
+
+    
