@@ -73,7 +73,7 @@ body {
     margin-top: 40px;
     font-size: 60px;
     color: #8f4343;
-    background-image: url(../images/descarga.jpg);
+    background-image: url(../images/que_significa_sonar_con_un_supermercado_6058_orig.jpg);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
@@ -148,6 +148,73 @@ body {
   .Tecontamos {
     margin-top: 50px;
   }
+/*Estilo para la pagina de Productos*/
+.products-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+}
+
+.product img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*Estilos Para la Pagina de Ubiucacion*/
+.mapa-container {
+  max-width: 100%;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.mapa-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.direccion-section, .horario-section {
+  margin-bottom: 20px;
+}
+
+.direccion-section h2, .horario-section h2 {
+  color: #333;
+}
   
   /* Estilos del footer */
   .footer {
