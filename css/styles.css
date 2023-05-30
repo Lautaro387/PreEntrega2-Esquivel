@@ -96,7 +96,7 @@ body {
   @media screen and (min-width: 1024px) {
     .titulo {
       font-size: 60px;
-      padding: 15% 25%;
+      padding: 15% 15%;
     }
   }
   
